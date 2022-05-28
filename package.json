@@ -2,6 +2,9 @@
   "name": "officemetaverse",
   "version": "1.0.0",
   "description": "Server for Office-Metaverse",
+  "engines": {
+    "node": "16.x"
+  },
   "main": ".eslintrc.js",
   "scripts": {
     "start": "cd server && ts-node-dev --project tsconfig.server.json --respawn --transpile-only index.ts",
